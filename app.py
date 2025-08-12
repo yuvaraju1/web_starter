@@ -69,4 +69,4 @@ def dynamic_page():
 # line, start here." It's not critical to know what this means yet.
 if __name__ == "__main__":
     app.debug = True
-    app.run()
+    app.run(host='0.0.0.0')
